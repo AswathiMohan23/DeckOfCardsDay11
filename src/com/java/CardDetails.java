@@ -5,15 +5,12 @@ public class CardDetails {
     static String[][] secondPlayer = new String[3][3];
     static String[][] thirdPlayer = new String[3][3];
     static String[][] fourthPlayer = new String[3][3];
-    static String[] suit = {"Clubs", "Diamonds", "Hearts", "Spades"};
-    static String[] rank = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
 
     public static void main(String[] args) {
         cardDistribution(firstPlayer,"player1");
         cardDistribution(secondPlayer,"player2");
         cardDistribution(thirdPlayer,"player3");
         cardDistribution(fourthPlayer,"player4");
-
     }
 
     private static String randomSuitCheck() {
